@@ -1,0 +1,147 @@
+{
+	"Россия": [
+		{
+			"title": "Мираж",
+			"rate": 5,
+			"link": "https://www.mirage-hotel.ru"
+		},
+		{
+			"title": "Гельвеция",
+			"rate": 4,
+			"link": "https://helvetiahotel.ru"
+		},
+		{
+			"title": "Измайлово Бета",
+			"rate": 3
+		}
+	],
+	"Азербайджан": [
+		{
+			"title": "Холидей Инн Баку",
+			"rate": 4
+		},
+		{
+			"title": "Фэйрмонт Баку",
+			"rate": 4,
+			"link": "https://www.fairmont-ru.com/baku/"
+		},
+		{
+			"title": "Winter Park Hotel",
+			"rate": 3,
+			"link": "http://winterparkhotel.net/ru/"
+		}
+	],
+	"Багамы": [
+		{
+			"title": "Comfort Suites Paradise Island",
+			"rate": 5,
+			"link": "https://www.comfortsuitespi.com"
+		},
+		{
+			"title": "SLS at Baha Mar",
+			"rate": 4,
+			"link": "https://www.sbe.com/hotels/sls-hotels/baha-mar"
+		},
+		{
+			"title": "Colony Club Inn & Suites ",
+			"rate": 3
+		}
+	],
+	"Грузия": [
+		{
+			"title": "Margo Palace Hotel",
+			"rate": 3
+		},
+		{
+			"title": "Hotel Tbilisi Central by Mgzavrebi",
+			"rate": 3
+		},
+		{
+			"title": "Stamba Hotel",
+			"rate": 5,
+			"link": "https://stambahotel.com"
+		}
+	],
+	"Египет": [
+		{
+			"title": "Al Masa Hotel",
+			"rate": 5,
+			"link": "https://almasa-nasrcity.com"
+		},
+		{
+			"title": "Sunrise Arabian Beach Resort - Grand Select",
+			"rate": 4,
+			"link": "https://www.sunrise-resorts.com/ru/Home/SHARM_EL_SHEIKH/SUNRISE_Grand_Select_Arabian_Beach_Resort"
+		},
+		{
+			"title": "Steigenberger Hotel El Tahrir",
+			"rate": 4,
+			"link": "https://www.steigenberger.com/en/hotels/all-hotels/egypt/cairo/steigenberger-el-tahrir-cairo"
+		}
+	],
+	"Израиль": [
+		{
+			"title": "New Imperial Hotel",
+			"rate": 4,
+			"link": "http://www.newimperial.com"
+		},
+		{
+			"title": "National Hotel - Jerusalem",
+			"rate": 4
+		},
+		{
+			"title": "Agripas Boutique Hotel",
+			"rate": 3
+		}
+	],
+	"Испания": [
+		{
+			"title": "Acta Voraport",
+			"rate": 3,
+			"link": "https://www.hotelvoraport.com/en/"
+		},
+		{
+			"title": "Ayre Hotel Gran Vía",
+			"rate": 4,
+			"link": "https://www.ayrehoteles.com/en/hotels/ayre-hotel-gran-via/"
+		},
+		{
+			"title": "Travelodge Barcelona Poblenou",
+			"rate": 1
+		}
+	],
+	"ОАЭ": [
+		{
+			"title": "Wyndham Dubai Marina",
+			"rate": 4,
+			"link": "https://www.wyndhamdubaimarina.com"
+		},
+		{
+			"title": "TRYP by Wyndham Dubai",
+			"rate": 4,
+			"link": "https://www.trypwyndhamdubai.com"
+		},
+		{
+			"title": "Premier Inn Dubai International Airport",
+			"rate": 3,
+			"link": "https://mena.premierinn.com/en/hotel/dubai-international-airport"
+		}
+	],
+	"Турция": [
+		{
+			"title": "ISG Sabiha Gökçen Airport Hotel",
+			"rate": 4,
+			"link": "https://www.isgairporthotel.com/ru/"
+		},
+		{
+			"title": "Swissotel The Bosphorus Istanbul",
+			"rate": 5,
+			"link": "https://www.swissotel-hotels.ru/hotels/istanbul/"
+		},
+		{
+			"title": "Novotel Istanbul Bosphorus Hotel",
+			"rate": 5,
+			"link": "https://www.novotelistanbulbosphorus.com"
+		}
+	]
+}

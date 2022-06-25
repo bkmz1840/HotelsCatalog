@@ -1,0 +1,87 @@
+/*
+* This is a manifest file that'll be compiled into application.css, which will include all the files
+* listed below.
+*
+* Any CSS file within this directory can be referenced here using a relative path.
+*
+* You're free to add application-wide styles to this file and they'll appear at the top of the
+* compiled file, but it's generally better to create a new file per style scope.
+*
+*= require bootstrap
+*= require grails
+*= require main
+*= require mobile
+*= require_self
+*/
+body {
+    background: url('../images/bg.jpg');
+}
+
+.fs-4 {
+    font-size: 1.2rem;
+}
+
+.fs-3 {
+    font-size: 1.5rem;
+}
+
+#find_hotel_block, #found_hotels_block {
+    background: rgba(225, 225, 225, 0.6);
+    padding: 20px;
+    border-radius: 15px;
+}
+
+/* Scaffolding */
+h1 {
+    color: #fff;
+}
+
+.home, .create, .list {
+    color: #fff !important;
+}
+
+.scaffold-list, .buttons {
+    margin: 0 30px;
+}
+
+.property-list {
+    width: 500px;
+    background: rgba(225, 225, 225, 0.6);
+    border-radius: 20px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
+.property-label, label {
+    font-weight: 800 !important;
+}
+
+.footer {
+    display: none;
+}
+
+/* Found hotels page */
+
+#found_hotels_table {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 20px;
+}
+
+.table_header {
+    font-weight: 600;
+}
+
+.hotel_title {
+    text-align: center;
+}
+
+.hotel_info_block {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.hotel_rate i {
+    color: #ffc107;
+}
