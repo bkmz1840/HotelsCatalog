@@ -9,7 +9,11 @@ class Hotel {
     static constraints = {
         title(nullable: false, blank: false, size: 1..255)
         rate(min: 1, max: 5)
-        link(nullable: true, blank: true, matches: "(http://|https://)([a-zA-Z]|/|\\w|.)*")
+        link(
+                nullable: true,
+                blank: true,
+                matches: "(http://|https://)(/|\\w|\\.|\\?|=|#|-)*"
+        )
     }
 
     String toString() {

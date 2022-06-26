@@ -19,20 +19,24 @@
                                 <i class="fa-solid fa-star"></i>
                             </g:each>
                         </div>
+                    </div>
+                    <div class="hotel_title_block">
+                        <span class="fs-4 hotel_title">${it.title}</span>
                         <g:if test="${it.link != null}">
                             <a href="${it.link}" class="btn btn-primary mt-2" target="_blank">Перейти на сайт</a>
                         </g:if>
                     </div>
-                    <div class="hotel_title_block">
-                        <p class="fs-4 hotel_title">${it.title}</p>
-                    </div>
                 </g:each>
+            </div>
+
+            <div class="d-flex justify-content-center">
+                <span class="fs-3 text-center mt-3">Найденных отелей: ${hotels.size()}</span>
             </div>
         </g:if>
         <g:else>
             <span class="fs-3 table_header">По Вашему запросу ничего не найдено</span>
         </g:else>
-        <div class="d-flex justify-content-center mt-5">
+        <div class="d-flex justify-content-center mt-3">
             <g:link resource="" class="btn btn-success">Новый поиск</g:link>
         </div>
     </div>

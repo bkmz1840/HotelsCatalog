@@ -33,6 +33,6 @@
     </div>
 </div>
 
-<asset:script src="bootstrap"/>
+<asset:javascript src="application.js"/>
 </body>
 </html>

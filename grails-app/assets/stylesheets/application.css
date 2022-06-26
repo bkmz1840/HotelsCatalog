@@ -26,7 +26,7 @@ body {
 }
 
 #find_hotel_block, #found_hotels_block {
-    background: rgba(225, 225, 225, 0.6);
+    background: rgba(225, 225, 225, 0.8);
     padding: 20px;
     border-radius: 15px;
 }
@@ -76,7 +76,7 @@ h1 {
     text-align: center;
 }
 
-.hotel_info_block {
+.hotel_title_block, .hotel_info_block {
     display: flex;
     flex-direction: column;
     align-items: center;
