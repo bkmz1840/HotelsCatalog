@@ -1,4 +1,3 @@
-<%@ page import="grails.util.Environment" %>
 <!doctype html>
 <html>
 

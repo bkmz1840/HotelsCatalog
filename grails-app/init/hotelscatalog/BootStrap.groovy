@@ -28,9 +28,7 @@ class BootStrap {
     }
 
     private def createHotels(LinkedHashMap<String, Country> countries) {
-        def hotelsFile = new File(
-                "C:\\Users\\bkmz1\\IdeaProjects\\HotelsCatalog\\grails-app\\init\\hotelscatalog\\hotels.json"
-        )
+        def hotelsFile = new File("./grails-app/init/hotelscatalog/hotels.json")
         def jsonSlurper = new JsonSlurper()
         def obj = jsonSlurper.parse(hotelsFile)
         countries.each {pair ->

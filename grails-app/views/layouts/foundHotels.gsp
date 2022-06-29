@@ -13,17 +13,17 @@
                 <p class="fs-3 text-center table_header">Название</p>
                 <g:each in="${hotels}">
                     <hr><hr>
-                    <div class="hotel_info_block">
+                    <div class="hotel_info_block mt-3">
                         <div class="hotel_rate">
-                            <g:each var="i" in="${(0..<it.rate)}">
+                            <g:each var="i" in="${(0 ..< it.rate)}">
                                 <i class="fa-solid fa-star"></i>
                             </g:each>
                         </div>
                     </div>
-                    <div class="hotel_title_block">
+                    <div class="hotel_title_block mt-3">
                         <span class="fs-4 hotel_title">${it.title}</span>
                         <g:if test="${it.link != null}">
-                            <a href="${it.link}" class="btn btn-primary mt-2" target="_blank">Перейти на сайт</a>
+                            <a href="${it.link}" class="btn btn-primary mt-2 mb-3" target="_blank">Перейти на сайт</a>
                         </g:if>
                     </div>
                 </g:each>

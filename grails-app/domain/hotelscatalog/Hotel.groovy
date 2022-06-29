@@ -2,9 +2,10 @@ package hotelscatalog
 
 class Hotel {
     String title
-    Country country
     int rate
     String link
+
+    static belongsTo = [country: Country]
 
     static constraints = {
         title(nullable: false, blank: false, size: 1..255)

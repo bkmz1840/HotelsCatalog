@@ -54,36 +54,6 @@ class FoundHotelControllerSpec
         model.hotels == expected
     }
 
-    void "test get hotels by country"() {
-        given:
-        def expected = Hotel.findAll {country.title == "Турция"}
-
-        when:
-        controller.foundHotels(
-                "",
-                Country.find {title == "Турция"}.id
-        )
-
-        then: 'The model is correct'
-        model.hotels
-        model.hotels == expected
-    }
-
-    void "test get hotels by title"() {
-        given:
-        def expected = [
-                Hotel.find {title == "Novotel Istanbul Bosphorus Hotel"},
-                Hotel.find {title == "ISG Sabiha Gökçen Airport Hotel"}
-        ]
-
-        when:
-        controller.foundHotels("Hotel", -1)
-
-        then: 'The model is correct'
-        model.hotels
-        model.hotels == expected
-    }
-
     void "test index action"() {
         given:
         def expectedCountries = Country.all
