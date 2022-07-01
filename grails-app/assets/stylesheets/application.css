@@ -45,7 +45,7 @@ h1 {
     margin: 0 30px;
 }
 
-.property-list {
+.property-list, .form {
     width: 500px;
     background: rgba(225, 225, 225, 0.6);
     border-radius: 20px;
@@ -57,7 +57,7 @@ h1 {
     margin-left: 20px;
 }
 
-.property-label, label {
+.property-label, label, .fieldcontain label {
     font-weight: 800 !important;
 }
 

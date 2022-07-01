@@ -6,9 +6,12 @@ class FoundHotelController {
         render(view: "/layouts/index", model: [countries: Country.all])
     }
 
-    def foundHotels(String hotelTitle, long countryId) {
-        if (hotelTitle != null && !hotelTitle.isEmpty() && countryId != -1) {
-            def hotels = Hotel.withCriteria {
+    def foundHotels() {
+        def hotelTitle = params.hotelTitle
+        def countryId = params.countryId as Long
+        def criteria = Hotel.createCriteria()
+        def hotels = criteria.list {
+            if (hotelTitle && countryId != -1) {
                 country {
                     eq("id", countryId)
                 }
@@ -18,7 +21,7 @@ class FoundHotelController {
                     order("title")
                 }
             }
-            render(view: "/layouts/foundHotels", model: [hotels: hotels])
-        } else render(view: "/layouts/foundHotels")
+        }
+        render(view: "/layouts/foundHotels", model: [hotels: hotels])
     }
 }
